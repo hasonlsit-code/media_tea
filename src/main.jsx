@@ -9,7 +9,6 @@ import enUS from "antd/locale/en_US";
 import LoginPage from "./pages/auth/Login.jsx";
 import { ConfigProvider } from "antd";
 
-
 import Shop from "./pages/client/Shop.jsx";
 import CreateUser from "./components/admin/user/CreateUser.jsx";
 import DetailUser from "./components/admin/user/DetailUser.jsx";
@@ -152,6 +151,7 @@ const router = createBrowserRouter([
         path: "/tea-mixer",
         element: <TeaMixerBoard />,
       },
+      
     ],
   },
   {
